@@ -19,7 +19,7 @@
 3. Ver detalles del servicio
    * Haz doble clic sobre SeriesBCF35.
 4. Controlar el servicio
-   * Desde la misma ventana o con clic derecho:
+   * Desde la misma ventana o con clic derecho:<br>
          * Iniciar → activa el servicio.<br>
          * Detener → lo desactiva.<br>
      
