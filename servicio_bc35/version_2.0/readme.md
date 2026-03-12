@@ -1,4 +1,4 @@
-📋 Guía rápida de instalación
+📋 ## Guía rápida de instalación
 
 1. Doble clic en Setup1.msi.
 2. Presionar Next en la pantalla inicial.
