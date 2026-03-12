@@ -24,7 +24,7 @@
          * Detener → lo desactiva.<br>
 
 
-📘 Archivo de configuración cfg.txt<br><br>
+📘 Archivo de configuración cfg.txt<br>
 Este archivo define los parámetros esenciales para la ejecución del servicio SeriesBCF35. Cada línea corresponde a una configuración específica que el sistema interpreta en orden.
 
 📌 Detalle de líneas<br>
