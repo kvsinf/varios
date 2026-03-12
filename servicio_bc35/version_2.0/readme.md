@@ -22,6 +22,10 @@
    * Desde la misma ventana o con clic derecho:<br>
          * Iniciar → activa el servicio.<br>
          * Detener → lo desactiva.<br>
+
+📘 Archivo de configuración cfg.txt
+Este archivo define los parámetros esenciales para la ejecución del servicio SeriesBCF35. Cada línea corresponde a una configuración específica que el sistema interpreta en orden.
+
      
 Archivo de configuración cfg.txt<br>
 línea 1--> conex no encriptado<br>
