@@ -27,9 +27,9 @@
 Este archivo define los parámetros esenciales para la ejecución del servicio SeriesBCF35. Cada línea corresponde a una configuración específica que el sistema interpreta en orden.
 
 📌 Detalle de líneas
-Línea 1 → Conexión no encriptada  
-Línea 2 → Fecha de inicio (formato dd-MM-YYYY)
-Línea 3 → Usuario Banco Central  
+Línea 1 → Conexión no encriptada<br>  
+Línea 2 → Fecha de inicio (formato dd-MM-YYYY)<br>
+Línea 3 → Usuario Banco Central<br>  
 
      
 Archivo de configuración cfg.txt<br>
