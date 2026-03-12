@@ -7,6 +7,19 @@
 5. Presionar Next para confirmar.
 6. Esperar a que finalice la instalación.
 7. Presionar Close para cerrar el asistente.
+
+📋 Guía rápida: Mostrar servicio SeriesBCF35
+
+1. Abrir consola de servicios
+   * Presiona Win + R.
+   * Escribe services.msc y pulsa Enter.
+2. Buscar el servicio
+   * En la ventana de Servicios, desplázate por la lista.
+   * Localiza SeriesBCF35
+3. Ver detalles del servicio
+   * Haz doble clic sobre SeriesBCF35.
+4. 
+     
    
 
 Archivo de configuración cfg.txt<br>
