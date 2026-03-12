@@ -18,10 +18,11 @@
    * Localiza SeriesBCF35
 3. Ver detalles del servicio
    * Haz doble clic sobre SeriesBCF35.
-4. 
+4. Controlar el servicio
+   * Desde la misma ventana o con clic derecho:
+         * Iniciar → activa el servicio.
+         * Detener → lo desactiva.
      
-   
-
 Archivo de configuración cfg.txt<br>
 línea 1--> conex no encriptado<br>
 línea 2--> fecha de inicio formato dd-MM-YYYY<br>
