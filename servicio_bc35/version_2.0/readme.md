@@ -29,7 +29,7 @@ Este archivo define los parámetros esenciales para la ejecución del servicio S
 📌 Detalle de líneas<br>
 Línea 1 → Conexión no encriptada<br>
 Línea 2 → Fecha de inicio (formato dd-MM-YYYY)<br>
-Línea 3 → Usuario Banco Central<br>  
+Línea 3 → Usuario Banco Central<br>
 Línea 4 → Contraseña Banco Central<br>
 Línea 5 → Hora de inicio de ejecución (formato HH:mm)
      
