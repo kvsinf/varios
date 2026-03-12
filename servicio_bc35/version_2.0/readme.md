@@ -1,8 +1,13 @@
 📋 Guía rápida de instalación
 
 1. Doble clic en Setup1.msi.
-
-
+2. Presionar Next en la pantalla inicial.
+3. Aceptar la carpeta por defecto: C:\Program Files (x86)\Default Company Name\Setup1\
+4. Seleccionar la opción Everyone.
+5. Presionar Next para confirmar.
+6. Esperar a que finalice la instalación.
+7. Presionar Close para cerrar el asistente.
+   
 
 Archivo de configuración cfg.txt<br>
 línea 1--> conex no encriptado<br>
