@@ -1,0 +1,5 @@
+Data Source=server;Network Library=DBMSSOCN;Initial Catalog=base_datos;User ID=username;password=user_password;Persist Security Info=False;Max Pool Size=4000;Enlist=true;Pooling=true
+09-03-2026
+test@test.com
+123456789
+12:15
