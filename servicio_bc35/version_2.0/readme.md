@@ -1,4 +1,4 @@
-![version](https://img.shields.io/badge/version-2.0-blue.svg)
+![version](https://img.shields.io/badge/version-2.0-blue.svg)  ![framework](https://img.shields.io/badge/.NET_Framework-3.5-purple.svg?style=flat-square)
 
 📋 Guía rápida de instalación
 
