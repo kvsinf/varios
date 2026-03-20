@@ -1,1 +1,35 @@
+' Elimina todos los registros de la tabla
+        Using conexion As New SqlConnection(conexString)
+            Using comando As New SqlCommand("DELETE FROM clientes_SII", conexion)
+                conexion.Open()
+                comando.ExecuteNonQuery()
+            End Using
+        End Using
 
+        Using lector As New StreamReader(rutaArchivo)
+            ' Leer encabezado una sola vez
+            Dim encabezado As String = lector.ReadLine()
+            ' Procesar solo las líneas de datos
+            While Not lector.EndOfStream
+                Dim linea As String = lector.ReadLine()
+                Dim campos() As String = linea.Split(";"c)
+
+                Try
+
+                    ' Insertar tabla clientes_sii
+                    Dim query As String = "INSERT INTO clientes_SII (RUT_cliente, cliente, email_XML) VALUES (@RUT_cliente, @cliente, @email_XML)"
+                    Using conexion As New SqlConnection(conexString)
+                        Using comando As New SqlCommand(query, conexion)
+                            ' Parámetros para evitar SQL Injection
+                            comando.Parameters.AddWithValue("@RUT_cliente", campos(0))
+                            comando.Parameters.AddWithValue("@cliente", campos(1))
+                            comando.Parameters.AddWithValue("@email_XML", campos(4))
+                            conexion.Open()
+                            comando.ExecuteNonQuery()
+                        End Using
+                    End Using
+                Catch ex As Exception
+                    Continue While
+                End Try
+            End While
+        End Using
