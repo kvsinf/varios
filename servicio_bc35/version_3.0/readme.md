@@ -37,8 +37,10 @@ Línea 4 → Contraseña Banco Central<br>
 Línea 5 → Hora de inicio de ejecución (formato HH:mm)
 Línea 6 → Tiempo en minutos para reintento, rango de 1 a 60
 
-Cambios implementados
-1- Se actualizó la información de cultura a es-CL (Español - Chile)
-2- Correción en la tabla SERIESFERIADOS para que no se repitan los días feriados
-3- Reintento automático en caso de error de conexión, vuelve a intentar la descarga con una frecuencia configurable en minutos, dentro de un rango de 1 a 60 minutos.
+## 🚀 Cambios implementados
+
+1. ✅ Se actualizó la información de cultura a **es-CL (Español - Chile)**  
+2. 🗓️ Corrección en la tabla **SERIESFERIADOS** para que no se repitan los días feriados  
+3. 🔄 Reintento automático en caso de error de conexión: el sistema vuelve a intentar la descarga con una frecuencia configurable en minutos, dentro de un rango de **1 a 60 minutos**  
+
 
