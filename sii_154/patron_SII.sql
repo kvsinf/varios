@@ -25,6 +25,20 @@ string(descendant::*[local-name()='RUTTrans'])
 string(descendant::*[local-name()='RUTChofer'])
 string(descendant::*[local-name()='NombreChofer'])
 
+ERROR ----> Documento presenta errores: 
+  
+Reporte de validaciones del DTE 52-1127
+--------------------------------------------------------------------------
+ 
+Falta elemento obligatorio: Transporte Ciudad Destino(DTE/Documento/Encabezado/Transporte/CiudadDest)
+Falta elemento obligatorio: Transporte Cmna Destino(DTE/Documento/Encabezado/Transporte/CmnaDest)
+Falta elemento obligatorio: Transporte Dir. Destino(DTE/Documento/Encabezado/Transporte/DirDest)
+Falta elemento obligatorio: Transporte Nombre Chofer(DTE/Documento/Encabezado/Transporte/NombreChofer)
+Falta elemento obligatorio: Transporte Patente(DTE/Documento/Encabezado/Transporte/Patente)
+Falta elemento obligatorio: Transporte Patente Carro(DTE/Documento/Encabezado/Transporte/PatenteCarro)
+Falta elemento obligatorio: Transporte Rut Chofer(DTE/Documento/Encabezado/Transporte/RUTChofer)
+Falta elemento obligatorio: Transporte Rut Transp.(DTE/Documento/Encabezado/Transporte/RUTTrans)
+
 
 
 
