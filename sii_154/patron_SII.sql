@@ -17,3 +17,7 @@ DELETE
 FROM patron_SII
 WHERE id_patronSII IN ('Patente','PatenteC','RUTTrans','RUTChofer',
                        'NombreChof','DirDest','CmnaDest','CiudadDest');
+
+
+string(descendant::*[local-name()='Patente'])
+
