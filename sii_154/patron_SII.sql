@@ -39,6 +39,7 @@ Falta elemento obligatorio: Transporte Patente Carro(DTE/Documento/Encabezado/Tr
 Falta elemento obligatorio: Transporte Rut Chofer(DTE/Documento/Encabezado/Transporte/RUTChofer)
 Falta elemento obligatorio: Transporte Rut Transp.(DTE/Documento/Encabezado/Transporte/RUTTrans)
 
-
+error:
+Error de Schema: El elemento 'Transporte' en espacio de nombres 'http://www.sii.cl/SiiDte' tiene un elemento secundario 'PatenteCarro' en espacio de nombres 'http://www.sii.cl/SiiDte' no válido. Lista esperada de elementos posibles: 'RUTTrans, Chofer, DirDest, CmnaDest, CiudadDest, Aduana' en espacio de nombres 'http://www.sii.cl/SiiDte'.
 
 
