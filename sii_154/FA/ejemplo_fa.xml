@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DTE><Documento>
+    <Encabezado>
+      <IdDoc>
+        <TipoDTE>33</TipoDTE>
+        <Folio>10450</Folio>
+        <FchEmis>2026-03-26</FchEmis>
+        <FchVenc>2026-03-26</FchVenc>
+       </IdDoc>
+      <Emisor>
+        <RUTEmisor>96512190-0</RUTEmisor>
+        <RznSoc>FRUTICOLA VICONTO S A</RznSoc>
+        <GiroEmis>AGENCIAS DE ADUANAS</GiroEmis>
+        <Telefono>8354124</Telefono>
+        <Acteco>11321</Acteco>
+        <DirOrigen>APOQUINDO 4775</DirOrigen>
+        <CmnaOrigen>LAS CONDES</CmnaOrigen>
+        <CiudadOrigen>SANTIAGO</CiudadOrigen>
+        </Emisor>
+      <Receptor>
+        <RUTRecep>90749000-9</RUTRecep>
+        <CdgIntRecep>10</CdgIntRecep>
+        <RznSocRecep>FALABELLA S.A.C.I.</RznSocRecep>
+        <GiroRecep>GRANDES</GiroRecep>
+        <DirRecep>ROSAS 1665</DirRecep>
+        <CmnaRecep>Santiago</CmnaRecep>
+        <CiudadRecep>Santiago</CiudadRecep>
+        </Receptor>
+		<Transporte>
+	      <Patente>DTRC78</Patente>
+		  <PatenteCarro>WXYZ11</PatenteCarro>
+		  <RUTTrans>12456789-0</RUTTrans>
+		<Chofer>
+		   <RUTChofer>12314156-7</RUTChofer>
+		   <NombreChofer>JUAN PEREZ</NombreChofer>
+        </Chofer>
+		   <DirDest>AV. EDUARDO FREI MONTALVA 2451</DirDest>
+           <CmnaDest>INDEPENDENCIA</CmnaDest>
+		   <CiudadDest>SANTIAGO</CiudadDest>
+		<FchSalida>2026-03-26</FchSalida>
+		<HraSalida>15:01:00</HraSalida>
+		<FchLlegada>2026-03-27</FchLlegada>
+       </Transporte>
+		
+      <Totales>
+        <MntNeto>1324394</MntNeto>
+        <MntExe>0</MntExe>
+        <TasaIVA>19</TasaIVA>
+        <IVA>251635</IVA>
+        <MntTotal>1576029</MntTotal>
+      </Totales>
+    </Encabezado>
+    <Detalle>
+      <NroLinDet>1</NroLinDet>
+      <CdgItem>
+        <TpoCodigo>INT1</TpoCodigo>
+        <VlrCodigo>100</VlrCodigo>
+      </CdgItem>
+      <NmbItem>Cajón AFECTO</NmbItem>
+      <QtyItem>182</QtyItem>
+      <UnmdItem>UNO</UnmdItem>
+      <PrcItem>4287</PrcItem>
+      <MontoItem>780234</MontoItem>
+    </Detalle>
+    <Detalle>
+      <NroLinDet>2</NroLinDet>
+      <CdgItem>
+        <TpoCodigo>INT1</TpoCodigo>
+        <VlrCodigo>101</VlrCodigo>
+      </CdgItem>
+      <NmbItem>Relleno AFECTO</NmbItem>
+      <QtyItem>76</QtyItem>
+      <UnmdItem>UNO</UnmdItem>
+      <PrcItem>7160</PrcItem>
+      <MontoItem>544160</MontoItem>
+    </Detalle>
+    <Referencia>
+      <NroLinRef>1</NroLinRef>
+      <TpoDocRef>SET</TpoDocRef>
+      <FolioRef>0</FolioRef>
+      <FchRef>2026-03-26</FchRef>
+      <RazonRef>CASO 4298699-1</RazonRef>
+    </Referencia>
+    </Documento></DTE>
