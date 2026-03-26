@@ -20,4 +20,6 @@ WHERE id_patronSII IN ('Patente','PatenteC','RUTTrans','RUTChofer',
 
 
 string(descendant::*[local-name()='Patente'])
+string(descendant::*[local-name()='PatenteCarro'])
+string(descendant::*[local-name()='RUTTrans'])
 
