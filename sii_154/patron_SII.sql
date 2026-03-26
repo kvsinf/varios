@@ -1,6 +1,6 @@
 SELECT *
 FROM patron_SII
-WHERE id_patronSII IN ('Patente','PatenteC','RUTTrans','RUTChofer','NombreChof','DirDest','CmnaDest','CiudadDest')
+WHERE id_patronSII IN ('Patente','PatenteC','RUTTrans','RUTChofer','NombreChof','DirDest','CmnaDest','CiudadDest','FchSalida','HraSalida','FchLlegada')
 ORDER BY CASE id_patronSII
            WHEN 'Patente'   THEN 1
            WHEN 'PatenteC'  THEN 2
@@ -10,8 +10,10 @@ ORDER BY CASE id_patronSII
            WHEN 'DirDest' THEN 6
            WHEN 'CmnaDest' THEN 7
            WHEN 'CiudadDest' THEN 8
+           WHEN 'FchSalida' THEN 9
+           WHEN 'HraSalida' THEN 10
+           WHEN 'FchLlegada' THEN 11
          END;
-
 
 DELETE
 FROM patron_SII
