@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DTE><Documento>
+    <Encabezado>
+      <IdDoc>
+        <TipoDTE>52</TipoDTE>
+        <Folio>1127</Folio>
+        <FchEmis>2026-03-26</FchEmis>
+		<TipoDespacho>3</TipoDespacho>
+        <IndTraslado>5</IndTraslado>
+        <FchVenc>2026-03-26</FchVenc>
+       </IdDoc>
+      <Emisor>
+        <RUTEmisor>76110870-0</RUTEmisor>
+        <RznSoc>FRUTICOLA VICONTO S A</RznSoc>
+        <GiroEmis>AGENCIAS DE ADUANAS</GiroEmis>
+        <Telefono>8354124</Telefono>
+        <Acteco>11321</Acteco>
+        <DirOrigen>APOQUINDO 4775</DirOrigen>
+        <CmnaOrigen>LAS CONDES</CmnaOrigen>
+        <CiudadOrigen>SANTIAGO</CiudadOrigen>
+        </Emisor>
+      <Receptor>
+        <RUTRecep>90749000-9</RUTRecep>
+        <CdgIntRecep>10</CdgIntRecep>
+        <RznSocRecep>FALABELLA S.A.C.I.</RznSocRecep>
+        <GiroRecep>GRANDES</GiroRecep>
+        <DirRecep>ROSAS 1665</DirRecep>
+        <CmnaRecep>Santiago</CmnaRecep>
+        <CiudadRecep>Santiago</CiudadRecep>
+       </Receptor>
+	   <Transporte>
+	    <Patente>DTRC78</Patente>
+		<PatenteCarro>WXYZ11</PatenteCarro>
+		<RUTTrans>12456789-0</RUTTrans>
+		<Chofer>
+		   <RUTChofer>12314156-7</RUTChofer>
+		   <NombreChofer>JUAN PEREZ</NombreChofer>
+        </Chofer>
+		<DirDest>AV. EDUARDO FREI MONTALVA 2451</DirDest>
+        <CmnaDest>INDEPENDENCIA</CmnaDest>
+		<CiudadDest>SANTIAGO</CiudadDest>
+		<FchSalida>2026-03-26</FchSalida>
+		<HraSalida>17:51:59</HraSalida>
+		<FchLlegada>2026-03-27</FchLlegada>
+       </Transporte>
+      <Totales>
+        <MntNeto>0</MntNeto>
+        <MntExe>0</MntExe>
+        <TasaIVA>19</TasaIVA>
+        <IVA>0</IVA>
+        <MntTotal>0</MntTotal>
+      </Totales>
+    </Encabezado>
+    <Detalle>
+      <NroLinDet>1</NroLinDet>
+      <CdgItem>
+        <TpoCodigo>INT1</TpoCodigo>
+        <VlrCodigo>R</VlrCodigo>
+      </CdgItem>
+      <NmbItem>CONTENEDOR MARITIMO BODEGA</NmbItem>
+      <QtyItem>1</QtyItem>
+      <UnmdItem>UNO</UnmdItem>
+      <MontoItem>0</MontoItem>
+    </Detalle>
+    <Referencia>
+      <NroLinRef>1</NroLinRef>
+      <TpoDocRef>801</TpoDocRef>
+      <FolioRef>0</FolioRef>
+      <FchRef>2026-03-26</FchRef>
+      <RazonRef>CERTIFICACION</RazonRef>
+    </Referencia>
+    </Documento></DTE>
