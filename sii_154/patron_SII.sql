@@ -11,3 +11,9 @@ ORDER BY CASE id_patronSII
            WHEN 'CmnaDest' THEN 7
            WHEN 'CiudadDest' THEN 8
          END;
+
+
+DELETE
+FROM patron_SII
+WHERE id_patronSII IN ('Patente','PatenteC','RUTTrans','RUTChofer',
+                       'NombreChof','DirDest','CmnaDest','CiudadDest');
