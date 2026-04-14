@@ -2,5 +2,6 @@ La Resolución Exenta SII N°154 (publicada el 5 de noviembre de 2025) fija nuev
 
 
 https://www.sii.cl/normativa_legislacion/resoluciones/2025/reso154.pdf
+https://www.sii.cl/normativa_legislacion/resoluciones/2026/reso52.pdf
 
 url schema dte: https://www.sii.cl/factura_electronica/factura_mercado/schema_dte.zip
