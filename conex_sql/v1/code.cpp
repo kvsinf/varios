@@ -55,7 +55,7 @@ void AsegurarProvider(const wchar_t* input, wchar_t* output)
 }
 
 //--------------------------------------
-// Test conexi髇 SQL
+// Test conexi贸n SQL
 //--------------------------------------
 void TestConexion(HWND hwnd)
 {
@@ -72,7 +72,7 @@ void TestConexion(HWND hwnd)
 
     if (lstrlenW(buffer) == 0)
     {
-        MessageBoxW(hwnd, L"Ingrese cadena de conexi髇", L"Atenci髇", MB_OK);
+        MessageBoxW(hwnd, L"Ingrese cadena de conexi贸n", L"Atenci贸n", MB_OK);
         goto cleanup;
     }
 
@@ -105,7 +105,7 @@ void TestConexion(HWND hwnd)
 
     if (FAILED(hr))
     {
-        MessageBoxW(hwnd, L"Cadena inv醠ida o Provider no disponible", L"Error", MB_OK);
+        MessageBoxW(hwnd, L"Cadena inv谩lida o Provider no disponible", L"Error", MB_OK);
         pIDataInitialize->Release();
         goto cleanup;
     }
@@ -114,7 +114,7 @@ void TestConexion(HWND hwnd)
 
     if (SUCCEEDED(hr))
     {
-        MessageBoxW(hwnd, L"Conexi髇 exitosa", L"OK", MB_OK);
+        MessageBoxW(hwnd, L"Conexi贸n exitosa", L"OK", MB_OK);
         pIDBInitialize->Uninitialize();
     }
     else
@@ -151,7 +151,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam)
 
         hButton = CreateWindowW(
             L"BUTTON",
-            L"Test conexi髇 SQL",
+            L"Test conexi贸n SQL",
             WS_CHILD | WS_VISIBLE,
             10, 220, 200, 30,
             hWnd, (HMENU)1, 0, 0
