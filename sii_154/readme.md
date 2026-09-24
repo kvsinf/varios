@@ -6,7 +6,3 @@ https://www.sii.cl/normativa_legislacion/resoluciones/2026/reso52.pdf
 
 url schema dte: https://www.sii.cl/factura_electronica/factura_mercado/schema_dte.zip
 
-Nodos obligatorios:
-1-
-2-
-Nodos opcionales:
