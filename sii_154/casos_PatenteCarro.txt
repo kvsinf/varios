@@ -1,0 +1,12 @@
+Casos PatenteCarro - DTE 52
+
+1. Hay remolque y se conoce la patente:
+   <PatenteCarro>DTRC78</PatenteCarro>
+
+2. Hay remolque, pero no se conoce la patente:
+   <PatenteCarro>SINDATO</PatenteCarro>
+   Nota: SINDATO fue aceptado por el SII en la prueba realizada.
+
+3. No hay remolque:
+   No agregar el nodo <PatenteCarro>.
+   Este caso también fue aceptado por el SII sin reparos.
