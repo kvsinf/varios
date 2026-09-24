@@ -1,0 +1,15 @@
+Nodos obligatorios:
+-IndTraslado 
+-Patente        
+-PatenteCarro   
+-RUTTrans       
+-RUTChofer     
+-NombreChofer   
+-DirDest       
+-CmnaDest       
+-FchSalida      
+-HraSalida      
+-FchLlegada 
+
+Nodos opcionales:
+-CiudadDest
