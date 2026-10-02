@@ -17,3 +17,18 @@ ORDER BY CASE id_patronSII
     WHEN 'HraSalida'   THEN 10
     WHEN 'FchLlegada'  THEN 11
 END;       
+
+
+UPDATE patron_SII
+SET obligatorio_FA = '0'
+WHERE id_patronSII IN ('Patente', 
+'PatenteC',
+'RUTTrans',
+'RUTChofer',
+'NombreChof',
+'DirDest',
+'CmnaDest',
+'CiudadDest',
+'FchSalida',
+'HraSalida',
+'FchLlegada')
