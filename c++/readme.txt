@@ -1,3 +1,3 @@
 
-g++ semilla.cpp -o semilla -lcurl
-./semilla
+g++ getseed.cpp -o getseed -lcurl
+./getseed
